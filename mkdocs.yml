@@ -19,7 +19,7 @@ theme:
 
 nav:
   - Accueil: index.md
-  - LireSW: LireSW/docs
+  - LireSW: LireSW/
 
 plugins:
   - search
