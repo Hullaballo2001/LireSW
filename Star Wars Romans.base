@@ -1,0 +1,37 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    order: []
+    sort:
+      - property: Année chrono
+        direction: DESC
+      - property: compteur année ou série
+        direction: ASC
+  - type: list
+    name: List
+    order:
+      - file.name
+      - Année chrono
+      - canon
+      - Note 20
+    sort:
+      - property: Année chrono
+        direction: DESC
+      - property: compteur année ou série
+        direction: ASC
+  - type: table
+    name: Table test
+    order:
+      - file.name
+      - Année chrono
+      - canon
+      - Note 20
+    sort:
+      - property: Année chrono
+        direction: DESC
+      - property: compteur année ou série
+        direction: ASC
+    columnSize:
+      note.Année chrono: 167
