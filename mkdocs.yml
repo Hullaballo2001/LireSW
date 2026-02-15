@@ -1,25 +1,26 @@
 site_name: obsidian-mkdocs template
 
 theme:
-    name: 'material'
-    icon: 
-      repo: fontawesome/brands/github
-    palette:
-      
+  name: material
+ # logo: img/logo.bmp  # ← change par ton logo ou commente
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.code.annotate
+  palette:
     # Light mode
-    - media: "(prefers-color-scheme: light)"
+    - media: '(prefers-color-scheme: light)'
       scheme: default
-      primary: pink
-      accent: indigo
+      primary: blue grey
+      accent: light blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-
     # Dark mode
-    - media: "(prefers-color-scheme: dark)"
+    - media: '(prefers-color-scheme: dark)'
       scheme: slate
-      primary: pink
-      accent: blue
+      primary: blue grey
+      accent: light blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
