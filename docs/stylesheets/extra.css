@@ -1,0 +1,10 @@
+/* SUPPRESSION TOTALE ICÔNES */
+.md-icon, svg.icon, svg[xmlns], [class*="icon"] {
+  display: none !important;
+}
+.md-nav__link::before, .md-header-nav__button::before {
+  content: none !important;
+}
+img { max-width: 95%; height: auto; }
+.center { display: block; margin: 1em auto; }
+
