@@ -17,12 +17,13 @@ theme:
   features:
     - navigation.instant
     - navigation.top
+    - navigation.indexes
     - content.code.copy
 
 nav:
   - Accueil: index.md
-  - Romans: "Notes de lecture"
-  - Blog: blog
+  - Romans: "Notes de lecture/"
+  - Blog: blog/
 
 plugins:
   - search
