@@ -1,5 +1,7 @@
 site_name: LireSW
 
+docs_dir: docs
+
 theme:
   name: material
   palette:
@@ -19,7 +21,8 @@ theme:
 
 nav:
   - Accueil: index.md
-  - LireSW: LireSW/
+  - Romans: "Notes de lecture"
+  - Blog: blog
 
 plugins:
   - search
